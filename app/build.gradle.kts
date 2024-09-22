@@ -1,5 +1,4 @@
 plugins {
-    alias(libs.plugins.multi.module.android.application)
     alias(libs.plugins.multi.module.android.application.compose)
     alias(libs.plugins.multi.module.android.hilt)
     alias(libs.plugins.jetbrains.kotlin.serialization)

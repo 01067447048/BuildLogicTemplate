@@ -13,7 +13,7 @@ class FeatureConventionPlugin: Plugin<Project> {
     override fun apply(target: Project) {
         target.run {
             pluginManager.run {
-                apply("multi.module.android.library.compose")
+                apply("multi.module.android.presentation.ui")
                 apply("androidx.navigation.safeargs.kotlin")
                 apply("multi.module.android.hilt")
             }
